@@ -1,0 +1,77 @@
+{
+  "surveyDTO":
+[
+{   "QuestionerDefinition" :[
+
+  {
+
+    "Data": "Average Pay Range",
+    "SurveyQuestion": "What was your end Salary?",
+    "DataType": "number",
+    "DisplayOnCompanyPage": "true",
+     "QuestionerValueType":[]
+     }
+ ,
+ {
+    "Data": "Number of Employees",
+    "SurveyQuestion": "How many employees are in this company",
+    "DataType":"radio",
+    "DisplayOnCompanyPage": "true",
+    "QuestionerValueType":[
+  {
+  "Description":"200-250",
+  "WeightValue":1
+  },
+  {
+    "Description":"251-500",
+    "WeightValue":2
+    },
+    {
+    "Description":"Above 501",
+    "WeightValue":3
+    }
+
+
+]
+
+  },
+
+{
+    "Data": "Tokenization",
+    "SurveyQuestion": "Have you felt tokenized?",
+    "DataType":"Scale Of 1-5",
+    "DisplayOnCompanyPage": "false",
+
+ "QuestionerValueType":[
+{
+  "Description":"One",
+  "WeightValue":1
+},
+
+{
+  "Description":"Two",
+  "WeightValue":2
+},
+
+{
+  "Description":"Three",
+  "WeightValue":3
+},
+{
+  "Description":"Four",
+  "WeightValue":4
+},
+{
+  "Description":"Five",
+  "WeightValue":5
+}
+
+]
+
+
+
+}
+
+]}
+]
+ }
